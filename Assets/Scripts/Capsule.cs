@@ -10,6 +10,6 @@ public class Capsule : Shape
     // POLYMORPHISM: Different behavior
     public override void DisplayText()
     {
-        Debug.Log($"I am a {ShapeName}! My color is {ShapeColor}.");
+        Debug.Log($"I am a {ShapeName}! My color is {ShapeColor}"); 
     }
 }

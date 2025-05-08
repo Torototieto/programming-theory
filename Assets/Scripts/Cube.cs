@@ -9,6 +9,6 @@ public class Cube : Shape
     // POLYMORPHISM: Overriding base method
     public override void DisplayText()
     {
-        Debug.Log($"I am a {ShapeName}! My color is {ShapeColor}.");
+        Debug.Log($"I am a {ShapeName}! My color is {ShapeColor}"); 
     }
 }
